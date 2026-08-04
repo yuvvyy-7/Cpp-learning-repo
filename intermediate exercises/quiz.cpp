@@ -8,7 +8,7 @@ int main() {
                           {"3. What is brain of the computer"}, 
                           {"4. What is capital of India?"}};
 
-    string answers[][4] = {{"A. Blue", "B. Red", "C. Green", "D.Sky Blue"},
+    string answers[][4] = {{"A. Blue", "B. Red", "C. Green", "D. Sky Blue"},
                            {"A. Edison", "B. Tesla", "C. Newton", "D. Einstein"},
                            {"A. Mouse", "B. CPU", "C. Keyboard", "D. Mousepad"},
                            {"A. New Delhi", "B. Kolkata", "C. Chennai", "D. Mumbai"}};
