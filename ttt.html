@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .hero {
+            border-color: white;
+            background-color: black;
+            margin-top: 100px;
+            padding: 10px;
+            height: 170px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .start-button {
+            height: 40px;
+            width: 80px;
+            background-color: #00aa00;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width: 2px;
+            cursor: pointer;
+            border-color: white;
+            font-weight: bold;
+            font-size: 17px;;
+            margin-bottom: 20px;
+        }
+
+        .ttt-game {
+            margin-top: 20px;
+            height: 300px;
+            width: 300px;
+            background-color: lightcoral;
+            display: grid;
+            grid-template-rows: 90px 90px 90px;
+            grid-template-columns: 90px 90px 90px;
+            gap: 10px;
+            padding: 10px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+
+        /*.space1,
+        .space2,
+        .space3,
+        .space4,
+        .space5,
+        .space6,
+        .space7,
+        .space8,*/
+        .space {
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 50px;
+            font-weight: 900;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <button class="start-button" onclick="toggle();">
+            START
+        </button>
+        <div>
+            START THE GAME!
+        </div>
+    </div>
+    <div class="ttt-game hidden">
+        <div id="1" class="space"></div>
+        <div id="2" class="space"></div>
+        <div id="3" class="space"></div>
+        <div id="4" class="space"></div>
+        <div id="5" class="space"></div>
+        <div id="6" class="space"></div>
+        <div id="7" class="space"></div>
+        <div id="8" class="space"></div>
+        <div id="9" class="space"></div>
+    </div>
+   
+
+<script src="ttt.js"></script>
+</body>
+</html>

@@ -12,7 +12,7 @@ bool checkTie(char *spaces);
 
 int main() {
 
-    char spaces[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',};
+    char spaces[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
     char player = 'O';
     char computer = 'X';
     bool running = true;
